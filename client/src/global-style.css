@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-overflow-scrolling: touch;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media only screen and (min-width: 600px){
+  .container-grid {
+    display: grid;
+    grid-template-columns: 1fr 10px 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .container-grid {
+    text-align: center;
+  }
+}
+
+.box {
+  border-radius: 20px;
+  background-color: #F8F8F8;
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.box-input {
+  display: grid;
+  grid-template-columns: 1fr 10px auto;
+  border-radius: 20px;
+  background-color: #F8F8F8;
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.poweredBox {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.input-style {
+  outline: none;
+  border-radius: 20px;
+  border: 0px;
+  font-size: 20px;
+  padding: 5px;
+}
