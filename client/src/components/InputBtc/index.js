@@ -10,24 +10,31 @@ class InputBtc extends Component {
   }
 
   handleOnChange = (event) => {
+    this.setState({ value: event.currentTarget.value, calPrice: this.calculatePrice(event.currentTarget.value)})
+  }
+
+  calculatePrice = (value) => {
     const { currentPrice } = this.props
-    this.setState({ value: event.currentTarget.value,calPrice: parseFloat((event.currentTarget.value * currentPrice).toFixed(4))})
+    return parseFloat((value * currentPrice).toFixed(5))
   }
 
   render() {
     const { calPrice,value } = this.state
+    const { currency } = this.props
     return (
       <div className="container-grid">
         <div className="box-input" style={{padding: 10,lineHeight: '40px'}}>
-          <input className="input-style" type="number" value={value} onChange={this.handleOnChange}/>
+          <label>
+            <input className="input-style" type="number" placeholder="Input your BTC" value={value} onChange={this.handleOnChange}/>
+            <span> BTC</span>
+          </label>
           <div/>
-          <span>BTC</span>
         </div>
         <div style={{margin: 'auto'}}>
           =
         </div>
         <div className="box" style={{padding: 10,lineHeight: '40px'}}>
-           {calPrice}
+           {currency} {calPrice === 0 ? 0 : this.calculatePrice(value)}
         </div>
       </div>
     );

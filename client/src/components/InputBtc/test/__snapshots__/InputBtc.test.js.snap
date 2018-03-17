@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputBtc renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <InputBtc
+    currency="USD"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="box-input"
+          style={
+                    Object {
+                              "lineHeight": "40px",
+                              "padding": 10,
+                            }
+          }
+>
+          <label>
+                    <input
+                              className="input-style"
+                              onChange={[Function]}
+                              placeholder="Input your BTC"
+                              type="number"
+                              value=""
+                    />
+                    <span>
+                               BTC
+                    </span>
+          </label>
+          <div />
+</div>,
+        <div
+          style={
+                    Object {
+                              "margin": "auto",
+                            }
+          }
+>
+          =
+</div>,
+        <div
+          className="box"
+          style={
+                    Object {
+                              "lineHeight": "40px",
+                              "padding": 10,
+                            }
+          }
+>
+          USD
+           
+          0
+</div>,
+      ],
+      "className": "container-grid",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <label>
+              <input
+                            className="input-style"
+                            onChange={[Function]}
+                            placeholder="Input your BTC"
+                            type="number"
+                            value=""
+              />
+              <span>
+                             BTC
+              </span>
+</label>,
+            <div />,
+          ],
+          "className": "box-input",
+          "style": Object {
+            "lineHeight": "40px",
+            "padding": 10,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  className="input-style"
+                  onChange={[Function]}
+                  placeholder="Input your BTC"
+                  type="number"
+                  value=""
+/>,
+                <span>
+                   BTC
+</span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "input-style",
+                  "onChange": [Function],
+                  "placeholder": "Input your BTC",
+                  "type": "number",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " BTC",
+                },
+                "ref": null,
+                "rendered": " BTC",
+                "type": "span",
+              },
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "=",
+          "style": Object {
+            "margin": "auto",
+          },
+        },
+        "ref": null,
+        "rendered": "=",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "USD",
+            " ",
+            0,
+          ],
+          "className": "box",
+          "style": Object {
+            "lineHeight": "40px",
+            "padding": 10,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          "USD",
+          " ",
+          0,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="box-input"
+            style={
+                        Object {
+                                    "lineHeight": "40px",
+                                    "padding": 10,
+                                  }
+            }
+>
+            <label>
+                        <input
+                                    className="input-style"
+                                    onChange={[Function]}
+                                    placeholder="Input your BTC"
+                                    type="number"
+                                    value=""
+                        />
+                        <span>
+                                     BTC
+                        </span>
+            </label>
+            <div />
+</div>,
+          <div
+            style={
+                        Object {
+                                    "margin": "auto",
+                                  }
+            }
+>
+            =
+</div>,
+          <div
+            className="box"
+            style={
+                        Object {
+                                    "lineHeight": "40px",
+                                    "padding": 10,
+                                  }
+            }
+>
+            USD
+             
+            0
+</div>,
+        ],
+        "className": "container-grid",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <label>
+                <input
+                                className="input-style"
+                                onChange={[Function]}
+                                placeholder="Input your BTC"
+                                type="number"
+                                value=""
+                />
+                <span>
+                                 BTC
+                </span>
+</label>,
+              <div />,
+            ],
+            "className": "box-input",
+            "style": Object {
+              "lineHeight": "40px",
+              "padding": 10,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <input
+                    className="input-style"
+                    onChange={[Function]}
+                    placeholder="Input your BTC"
+                    type="number"
+                    value=""
+/>,
+                  <span>
+                     BTC
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "input-style",
+                    "onChange": [Function],
+                    "placeholder": "Input your BTC",
+                    "type": "number",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " BTC",
+                  },
+                  "ref": null,
+                  "rendered": " BTC",
+                  "type": "span",
+                },
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "=",
+            "style": Object {
+              "margin": "auto",
+            },
+          },
+          "ref": null,
+          "rendered": "=",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "USD",
+              " ",
+              0,
+            ],
+            "className": "box",
+            "style": Object {
+              "lineHeight": "40px",
+              "padding": 10,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            "USD",
+            " ",
+            0,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -23,6 +23,11 @@ body {
   }
 }
 
+.button-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .box {
   border-radius: 20px;
   background-color: #F8F8F8;
@@ -31,9 +36,15 @@ body {
   font-size: 20px;
 }
 
+.box-select {
+  border-radius: 20px;
+  background-color: #2880CE;
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
 .box-input {
-  display: grid;
-  grid-template-columns: 1fr 10px auto;
   border-radius: 20px;
   background-color: #F8F8F8;
   margin: 20px;

@@ -10,8 +10,14 @@
   },
   "scripts": {
     "client": "cd client && yarn start",
-    "server": "nodemon server.js",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    "build-client": "cd client && yarn build",
+    "serve-client": "cd client && yarn serve",
+    "setup-client": "cd client && yarn",
+    "server": "node server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "build": "yarn build-client",
+    "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn serve-client\"",
+    "setup": "yarn && yarn setup-client"
   },
   "devDependencies": {
     "concurrently": "^3.5.0"

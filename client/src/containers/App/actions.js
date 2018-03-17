@@ -13,3 +13,10 @@ export const addChartData = (dispatch) => (price,date) => {
     date
   });
 };
+
+export const changeCurrency = (dispatch) => (currency) => {
+  dispatch({
+    type: 'changeCurrency',
+    currency,
+  });
+};

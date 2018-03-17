@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrencyButton renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CurrencyButton
+    currency="USD"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="box-select"
+          onClick={[Function]}
+          style={
+                    Object {
+                              "cursor": "pointer",
+                              "padding": 20,
+                            }
+          }
+>
+          USD
+</div>,
+        <div
+          className="box"
+          onClick={[Function]}
+          style={
+                    Object {
+                              "cursor": "pointer",
+                              "padding": 20,
+                            }
+          }
+>
+          SGD
+</div>,
+      ],
+      "className": "button-grid",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "USD",
+          "className": "box-select",
+          "onClick": [Function],
+          "style": Object {
+            "cursor": "pointer",
+            "padding": 20,
+          },
+        },
+        "ref": null,
+        "rendered": "USD",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "SGD",
+          "className": "box",
+          "onClick": [Function],
+          "style": Object {
+            "cursor": "pointer",
+            "padding": 20,
+          },
+        },
+        "ref": null,
+        "rendered": "SGD",
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="box-select"
+            onClick={[Function]}
+            style={
+                        Object {
+                                    "cursor": "pointer",
+                                    "padding": 20,
+                                  }
+            }
+>
+            USD
+</div>,
+          <div
+            className="box"
+            onClick={[Function]}
+            style={
+                        Object {
+                                    "cursor": "pointer",
+                                    "padding": 20,
+                                  }
+            }
+>
+            SGD
+</div>,
+        ],
+        "className": "button-grid",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "USD",
+            "className": "box-select",
+            "onClick": [Function],
+            "style": Object {
+              "cursor": "pointer",
+              "padding": 20,
+            },
+          },
+          "ref": null,
+          "rendered": "USD",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "SGD",
+            "className": "box",
+            "onClick": [Function],
+            "style": Object {
+              "cursor": "pointer",
+              "padding": 20,
+            },
+          },
+          "ref": null,
+          "rendered": "SGD",
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -16,11 +16,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "serve -s build"
   },
   "devDependencies": {
     "enzyme": "^3.3.0",
-    "jest-cli": "^23.0.0-alpha.0",
+    "enzyme-adapter-react-15": "^1.0.5",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest-cli": "20.0.4",
     "react-scripts": "1.1.1"
   }
 }

@@ -2,7 +2,8 @@
 const initialState = {
   currentPrice: 0,
   chartData: [],
-  chartLabel:[]
+  chartLabel:[],
+  currency: 'USD'
 };
 
 export default (state = initialState, action) => {
@@ -13,9 +14,16 @@ export default (state = initialState, action) => {
         currentPrice: action.price
       };
     case 'addChartData':
-      state.chartData.push(action.price)
-      state.chartLabel.push(action.date)
-      return {...state};
+      return {
+        ...state,
+        chartData: action.price,
+        chartLabel: action.date,
+      };
+    case 'changeCurrency':
+      return {
+        ...state,
+        currency: action.currency
+      };
     default:
       return state;
   }

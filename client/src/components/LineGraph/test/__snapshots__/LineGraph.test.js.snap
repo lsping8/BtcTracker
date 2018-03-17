@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LineGraph renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LineGraph />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <LineChart
+        data={
+                Object {
+                        "datasets": Array [
+                          Object {
+                            "data": undefined,
+                            "fillColor": "rgba(220,220,220,0.2)",
+                            "label": "My First dataset",
+                            "pointColor": "rgba(220,220,220,1)",
+                            "pointHighlightFill": "#fff",
+                            "pointHighlightStroke": "rgba(220,220,220,1)",
+                            "pointStrokeColor": "#fff",
+                            "strokeColor": "rgba(220,220,220,1)",
+                          },
+                        ],
+                        "labels": undefined,
+                      }
+        }
+        height="200"
+        options={
+                Object {
+                        "bezierCurve": true,
+                        "bezierCurveTension": 0.4,
+                        "datasetFill": true,
+                        "datasetStroke": true,
+                        "datasetStrokeWidth": 2,
+                        "legendTemplate": "<ul class=\\"<%=name.toLowerCase()%>-legend\\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\\"background-color:<%=datasets[i].strokeColor%>\\"><%if(datasets[i].label){%><%=datasets[i].label%><%}%></span></li><%}%></ul>",
+                        "offsetGridLines": false,
+                        "pointDot": true,
+                        "pointDotRadius": 4,
+                        "pointDotStrokeWidth": 1,
+                        "pointHitDetectionRadius": 20,
+                        "responsive": true,
+                        "scaleGridLineColor": "rgba(0,0,0,.05)",
+                        "scaleGridLineWidth": 1,
+                        "scaleShowGridLines": true,
+                        "scaleShowHorizontalLines": true,
+                        "scaleShowVerticalLines": true,
+                      }
+        }
+        width="600"
+/>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "data": Object {
+          "datasets": Array [
+            Object {
+              "data": undefined,
+              "fillColor": "rgba(220,220,220,0.2)",
+              "label": "My First dataset",
+              "pointColor": "rgba(220,220,220,1)",
+              "pointHighlightFill": "#fff",
+              "pointHighlightStroke": "rgba(220,220,220,1)",
+              "pointStrokeColor": "#fff",
+              "strokeColor": "rgba(220,220,220,1)",
+            },
+          ],
+          "labels": undefined,
+        },
+        "height": "200",
+        "options": Object {
+          "bezierCurve": true,
+          "bezierCurveTension": 0.4,
+          "datasetFill": true,
+          "datasetStroke": true,
+          "datasetStrokeWidth": 2,
+          "legendTemplate": "<ul class=\\"<%=name.toLowerCase()%>-legend\\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\\"background-color:<%=datasets[i].strokeColor%>\\"><%if(datasets[i].label){%><%=datasets[i].label%><%}%></span></li><%}%></ul>",
+          "offsetGridLines": false,
+          "pointDot": true,
+          "pointDotRadius": 4,
+          "pointDotStrokeWidth": 1,
+          "pointHitDetectionRadius": 20,
+          "responsive": true,
+          "scaleGridLineColor": "rgba(0,0,0,.05)",
+          "scaleGridLineWidth": 1,
+          "scaleShowGridLines": true,
+          "scaleShowHorizontalLines": true,
+          "scaleShowVerticalLines": true,
+        },
+        "width": "600",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <LineChart
+          data={
+                    Object {
+                              "datasets": Array [
+                                Object {
+                                  "data": undefined,
+                                  "fillColor": "rgba(220,220,220,0.2)",
+                                  "label": "My First dataset",
+                                  "pointColor": "rgba(220,220,220,1)",
+                                  "pointHighlightFill": "#fff",
+                                  "pointHighlightStroke": "rgba(220,220,220,1)",
+                                  "pointStrokeColor": "#fff",
+                                  "strokeColor": "rgba(220,220,220,1)",
+                                },
+                              ],
+                              "labels": undefined,
+                            }
+          }
+          height="200"
+          options={
+                    Object {
+                              "bezierCurve": true,
+                              "bezierCurveTension": 0.4,
+                              "datasetFill": true,
+                              "datasetStroke": true,
+                              "datasetStrokeWidth": 2,
+                              "legendTemplate": "<ul class=\\"<%=name.toLowerCase()%>-legend\\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\\"background-color:<%=datasets[i].strokeColor%>\\"><%if(datasets[i].label){%><%=datasets[i].label%><%}%></span></li><%}%></ul>",
+                              "offsetGridLines": false,
+                              "pointDot": true,
+                              "pointDotRadius": 4,
+                              "pointDotStrokeWidth": 1,
+                              "pointHitDetectionRadius": 20,
+                              "responsive": true,
+                              "scaleGridLineColor": "rgba(0,0,0,.05)",
+                              "scaleGridLineWidth": 1,
+                              "scaleShowGridLines": true,
+                              "scaleShowHorizontalLines": true,
+                              "scaleShowVerticalLines": true,
+                            }
+          }
+          width="600"
+/>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "data": Object {
+            "datasets": Array [
+              Object {
+                "data": undefined,
+                "fillColor": "rgba(220,220,220,0.2)",
+                "label": "My First dataset",
+                "pointColor": "rgba(220,220,220,1)",
+                "pointHighlightFill": "#fff",
+                "pointHighlightStroke": "rgba(220,220,220,1)",
+                "pointStrokeColor": "#fff",
+                "strokeColor": "rgba(220,220,220,1)",
+              },
+            ],
+            "labels": undefined,
+          },
+          "height": "200",
+          "options": Object {
+            "bezierCurve": true,
+            "bezierCurveTension": 0.4,
+            "datasetFill": true,
+            "datasetStroke": true,
+            "datasetStrokeWidth": 2,
+            "legendTemplate": "<ul class=\\"<%=name.toLowerCase()%>-legend\\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\\"background-color:<%=datasets[i].strokeColor%>\\"><%if(datasets[i].label){%><%=datasets[i].label%><%}%></span></li><%}%></ul>",
+            "offsetGridLines": false,
+            "pointDot": true,
+            "pointDotRadius": 4,
+            "pointDotStrokeWidth": 1,
+            "pointHitDetectionRadius": 20,
+            "responsive": true,
+            "scaleGridLineColor": "rgba(0,0,0,.05)",
+            "scaleGridLineWidth": 1,
+            "scaleShowGridLines": true,
+            "scaleShowHorizontalLines": true,
+            "scaleShowVerticalLines": true,
+          },
+          "width": "600",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -24,7 +24,7 @@ class LineGraph extends Component {
 		};
     return (
       <div>
-        <LineChart data={graphData} options={chartOptions} width="600" height="250"/>
+        <LineChart data={graphData} options={chartOptions} width="600" height="200"/>
       </div>
     );
   }

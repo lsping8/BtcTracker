@@ -11,16 +11,28 @@ const config = {
     messagingSenderId: "1033788848312"
   }
 
-firebase.initializeApp(config)
-
-schedule.scheduleJob('30 * * * *', () => new Promise(() => {
+const addNewdata = () => new Promise(() => {
     fetch('https://api.coindesk.com/v1/bpi/currentprice/SGD.json')
     .then((result) => result.json())
     .then((data) => {
       const dt = datetime.create();
       const formatted = dt.format('m-d H:M');
-      const prieceTick = firebase.database().ref().child('priceTick').push()
-      firebase.database().ref('currentPrice').update({price: data.bpi.SGD.rate_float})
-      prieceTick.set({ price: data.bpi.SGD.rate_float, date: formatted })
+      const prieceTickSGD = firebase.database().ref().child('priceTick/SGD').push()
+      const prieceTickUSD = firebase.database().ref().child('priceTick/USD').push()
+      prieceTickSGD.set({ price: data.bpi.SGD.rate_float, date: formatted })
+      prieceTickUSD.set({ price: data.bpi.USD.rate_float, date: formatted })
+      firebase.database().ref('currentPrice/SGD').update({price: data.bpi.SGD.rate_float})
+      firebase.database().ref('currentPrice/USD').update({price: data.bpi.USD.rate_float})
     })
-  }))
+  })
+
+firebase.initializeApp(config)
+firebase.database().ref(`currentPrice/SGD`).once('value',(snapshot) => {
+  if(!snapshot.exists()){
+    addNewdata()
+  }
+})
+
+schedule.scheduleJob('*/1 * * * *', () => {
+  addNewdata()
+})
